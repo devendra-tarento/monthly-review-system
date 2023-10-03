@@ -1,0 +1,51 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.custom_input_one {
+  border-color: var(--grey-16);
+  border-radius: 0px;
+  box-shadow: none;
+  height: 2.25rem;
+  color: var(--grey-87);
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.875rem;
+}
+
+.custom_input_one:hover {
+  box-shadow: none;
+  border-color: var(--primary-1);
+}
+
+.custom_input_one:focus {
+  box-shadow: none;
+  border-color: var(--primary-1);
+}
+
+.custom_input_one::placeholder {
+  color: var(--grey-87);
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.429;
+}
+
+.search_bg_one {
+ 
+  background-image: url("../../assets/images/search_black_24dp.svg");
+  background-repeat: no-repeat;
+  background-position: 0.5rem;
+  background-size: 1.2rem;
+  padding-left: 2rem;
+}
+
+.search_bg_one:hover {
+  background-image: url("../../assets/images/search_black_24dp.svg");
+  background-repeat: no-repeat;
+  background-position: 0.5rem;
+}
+
+.search_bg_one:focus {
+  background-image: url("../../assets/images/search_black_24dp.svg");
+  background-repeat: no-repeat;
+  background-position: 0.5rem;
+}

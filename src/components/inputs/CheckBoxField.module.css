@@ -1,0 +1,24 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.check_box_field {
+  border: 1px solid transparent;
+  background-color: var(--white-1);
+  cursor: pointer;
+  min-height: 1rem;
+}
+
+.check_box_field_selected {
+  border: 1px solid var(--grey-16);
+  background-color: var(--secondary-2);
+  cursor: pointer;
+  min-height: 1rem;
+}
+
+.check_box_field:hover {
+  background-color: var(--secondary-2);
+}
+
+.check_box_field:focus {
+  background-color: var(--secondary-2);
+}

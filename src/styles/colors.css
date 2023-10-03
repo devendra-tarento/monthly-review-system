@@ -1,0 +1,98 @@
+html {
+    --black-1: black;
+    --black-2: grey;
+    --black-3: darkgrey;
+    --black-4: lightgrey;
+  
+    --grey-87: RGBA(0, 0, 0, 0.87);
+    --grey-60: RGBA(0, 0, 0, 0.6);
+    --grey-40: RGBA(0, 0, 0, 0.4);
+    --grey-16: RGBA(0, 0, 0, 0.16);
+    --grey-04: RGBA(0, 0, 0, 0.04);
+    --grey-light: RGB(245, 245, 245);
+    --grey-08: RGBA(0, 0, 0, 0.08);
+  
+    --white-1: white;
+    --white-95: RGBA(255, 255, 255, 0.95);
+    --white-70: RGBA(255, 255, 255, 0.7);
+    --white-40: RGBA(255, 255, 255, 0.4);
+    --white-16: RGBA(255, 255, 255, 0.16);
+    --white-08: RGBA(255, 255, 255, 0.08);
+    --white-04: RGBA(255, 255, 255, 0.04);
+  
+    --primary-1: #190144;
+    --primary-hover-1: #2d037b;
+    --primary-2: #F69953;
+    --primary-hover-2: #EC8C43;
+    --primary-3: #0B0021;
+
+    --secondary-1: #41335B;
+    --secondary-2: RGBA(65, 51, 91, 0.20);
+  
+    --shades-1: RGBA(246, 153, 83, 0.20);
+    --shades-2: RGBA(55, 52, 52, 0.20);
+    --shades-3: RGBA(4, 93, 173, 0.20);
+    --shades-4: RGBA(4, 93, 173, 0.50);
+  
+    --state-1: RGB(29, 137, 35);
+    --state-2: RGB(156, 167, 54);
+    --state-3: RGB(233, 158, 56);
+    --state-4: RGB(209, 57, 36);
+    --state-5: RGB(73, 201, 81);
+    --state-6: RGB(73, 201, 81);
+  
+    --bg-light-1: RGB(240, 243, 244);
+    --bg-light-2: RGBA(0, 116, 182, 0.2);
+  
+    --bg-dark-1: RGBA(255, 255, 255, 0.08);
+    --bg-dark-2: RGB(18, 32, 44);
+  }
+  
+  html[data-theme="dark"] {
+    --black-1: black;
+    --black-2: grey;
+    --black-3: darkgrey;
+    --black-4: lightgrey;
+  
+    --grey-87: RGBA(0, 0, 0, 0.87);
+    --grey-60: RGBA(0, 0, 0, 0.6);
+    --grey-40: RGBA(0, 0, 0, 0.4);
+    --grey-16: RGBA(0, 0, 0, 0.16);
+    --grey-04: RGBA(0, 0, 0, 0.04);
+    --grey-light: RGB(245, 245, 245);
+    --grey-08: RGBA(0, 0, 0, 0.08);
+  
+    --white-1: white;
+    --white-95: RGBA(255, 255, 255, 0.95);
+    --white-70: RGBA(255, 255, 255, 0.7);
+    --white-40: RGBA(255, 255, 255, 0.4);
+    --white-16: RGBA(255, 255, 255, 0.16);
+    --white-08: RGBA(255, 255, 255, 0.08);
+    --white-04: RGBA(255, 255, 255, 0.04);
+  
+    --primary-1: #190144;
+    --primary-2: #F69953;
+    --primary-3: #0B0021;
+
+    --secondary-1: #41335B;
+    --secondary-2: RGBA(65, 51, 91, 0.20);
+
+    --shades-1: RGB(246, 153, 83);
+    --shades-2: RGB(55, 52, 52);
+    --shades-3: RGB(4, 93, 173);
+    --shades-4: RGB(4, 93, 173);
+  
+    --state-1: RGB(29, 137, 35);
+    --state-2: RGB(156, 167, 54);
+    --state-3: RGB(233, 158, 56);
+    --state-4: RGB(209, 57, 36);
+    --state-5: RGB(73, 201, 81);
+    --state-6: RGB(73, 201, 81);
+  
+    --bg-light-1: RGB(240, 243, 244);
+    --bg-light-2: RGBA(0, 116, 182, 0.2);
+  
+    --bg-dark-1: RGBA(255, 255, 255, 0.08);
+    --bg-dark-2: RGB(18, 32, 44);
+  }
+  

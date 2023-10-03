@@ -1,0 +1,222 @@
+@import url("./colors.css");
+@import url("../assets/fonts/fonts.css");
+
+.white_bg {
+  background-color: var(--white-1);
+}
+
+.grey_bg {
+  background-color: var(--grey-light);
+}
+
+.react-confirm-alert-body {
+  width: 100%;
+}
+
+.nav-tabs .nav-link {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  color: var(--grey-87) !important;
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+  min-width: 5vw;
+  
+}
+
+.nav-tabs .nav-link:hover {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid var(--primary-2) !important;
+  color: var(--grey-87) !important;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+}
+
+.nav-tabs .nav-link:focus {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid var(--primary-2) !important;
+  color: var(--grey-87) !important;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid var(--primary-2) !important;
+  border-bottom-color: var(--primary-2) !important;
+  color: var(--grey-87) !important;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+}
+
+.responsive-width-1 {
+  width: 50%;
+}
+
+.custom-chart-size canvas {
+  width: 20rem !important;
+  height: 20rem !important;
+}
+
+.custom-chart-size-2 canvas {
+  width: 20rem !important;
+  height: 15rem !important;
+}
+
+.modal-header,
+.modal-footer {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+/* Custom toast styles starts here */
+
+.Toastify__toast--dark {
+  border-radius: 4px !important;
+}
+
+.Toastify__toast-body {
+  margin: 0em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+  font-family: "Lato-Regular", sans-serif !important;
+  font-size: 0.875em !important;
+}
+
+/* Custom toast styles ends here */
+
+/* Custom scroll bar styles starts here */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--grey-04);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--grey-16);
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+/* Custom scroll bar styles ends here */
+
+/* Media queries starts here */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-width-1 {
+    width: 75%;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+/* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+} */
+
+/* ----------- Retina Screens ----------- */
+/* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+} */
+
+/* Media queries ends here */

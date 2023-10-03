@@ -1,0 +1,30 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.btn_large {
+  background-color: var(--primary-1);
+  border: 1px solid transparent;
+  border-radius: 0px;
+  color: var(--white-1);
+  min-height: 3rem;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  line-height: 1.429;
+}
+
+.btn_large:hover {
+  background-color: var(--white-1);
+  color: var(--primary-1);
+  border: 1px solid var(--primary-1);
+}
+
+.btn_large:focus {
+  background-color: var(--white-1);
+  color: var(--primary-1);
+  border: 1px solid var(--primary-1);
+}
+
+.material_icon_one {
+  vertical-align: sub;
+}
