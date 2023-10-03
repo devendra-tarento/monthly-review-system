@@ -1,0 +1,45 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.btn_tertiary {
+  background-color: var(--grey-04);
+  color: var(--primary-2);
+  border: 1px solid var(--grey-08);
+  border-radius: 18px;
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.429;
+  box-shadow: none !important;
+}
+
+.btn_tertiary_selected {
+  background-color: var(--primary-1);
+  color: var(--white-1);
+  border: 1px solid transparent;
+  border-radius: 18px;
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.429;
+  box-shadow: none !important;
+}
+
+.btn_tertiary:hover {
+  background-color: var(--primary-1);
+  color: var(--white-1) !important;
+  border: 1px solid transparent;
+  box-shadow: none !important;
+}
+
+/* .btn_tertiary:focus {
+  background-color: var(--primary-1);
+  color: var(--white-1) !important;
+  border: 1px solid transparent;
+  box-shadow: none !important;
+} */
+
+
+.material_icon_one {
+  vertical-align: sub;
+}

@@ -1,0 +1,43 @@
+@import url("../styles/colors.css");
+@import url("../assets/fonts/fonts.css");
+
+.box_1 {
+  width: 5rem;
+  height: 3rem;
+}
+
+.primary_one_bg {
+  background-color: var(--primary-1);
+}
+
+.primary_two_bg {
+  background-color: var(--primary-2);
+}
+
+.primary_three_bg {
+  background-color: var(--primary-3);
+}
+
+.primary_four_bg {
+  background-color: var(--primary-4);
+}
+
+.primary_five_bg {
+  background-color: var(--primary-5);
+}
+
+.shades_one_bg {
+  background-color: var(--shades-1);
+}
+
+.shades_two_bg {
+  background-color: var(--shades-2);
+}
+
+.shades_three_bg {
+  background-color: var(--shades-3);
+}
+
+.shades_four_bg {
+  background-color: var(--shades-4);
+}

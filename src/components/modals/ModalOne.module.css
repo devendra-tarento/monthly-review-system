@@ -1,0 +1,17 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.modal_one {
+  border-radius: 8px;
+  background-color: var(--white-1);
+  border: none;
+}
+
+
+.show_modal {
+  display: block;
+}
+
+.hide_model {
+  display: none;
+}

@@ -1,0 +1,47 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.list_card_one {
+  border-radius: 0px;
+  background-color: var(--white-1);
+  border: none;
+  cursor: pointer;
+}
+
+.drag_handler {
+  color: var(--grey-16);
+  font-size: 1.75rem;
+  cursor: grabbing;
+  padding-top: 1.25rem;
+}
+
+.custom_label {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25px;
+  line-height: 1.333;
+}
+
+.custom_positioning {
+   padding-top: 0.40rem;
+}
+
+.list_card_selected:hover .pin_icon {
+  display: inline-block;
+}
+
+.list_card_selected {
+  background-color: var(--secondary-2);
+}
+
+.list_card_one:hover {
+  background-color: var(--secondary-2);
+}
+
+.list_card_one:focus {
+  background-color: var(--secondary-2);
+}
+
+.custom_icon_pos {
+  padding-top: 0.38rem;
+}

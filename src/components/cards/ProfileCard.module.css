@@ -1,0 +1,21 @@
+.profile_card {
+    width: 12rem;
+    height: 14.2rem;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: medium;
+    transition: transform 0.4s ease;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile_card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dp{
+    position: relative;
+    display: flex;
+    height: 4rem;
+    width: 4rem;
+}

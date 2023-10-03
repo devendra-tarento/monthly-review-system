@@ -1,0 +1,60 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.side_nav_bg {
+  background-color: var(--primary-3);
+}
+
+.side_nav_list {
+  cursor: pointer;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  line-height: 1.429;
+  color: var(--white-1);
+}
+
+.side_nav_list a {
+  cursor: pointer;
+  text-decoration: none !important;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  line-height: 1.429;
+  color: var(--white-1);
+  border-left: 3px solid transparent;
+}
+
+.side_nav_icons {
+  vertical-align: sub;
+}
+
+.side_nav_list_active {
+  cursor: pointer;
+  background-color: var(--secondary-1);
+  border-left: 3px solid var(--primary-2) !important;
+}
+
+.side_nav_list li {
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  margin: 0px;
+}
+
+.side_nav_list li:hover {
+  cursor: pointer;
+  background-color: var(--secondary-1);
+  border-left: 3px solid var(--primary-2);
+}
+
+label {
+  cursor: pointer;
+}
+
+.side_nav_list h4 {
+  color: var(--white-40);
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.21px;
+  line-height: 1.667;
+}

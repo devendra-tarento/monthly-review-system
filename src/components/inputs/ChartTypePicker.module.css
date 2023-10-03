@@ -1,0 +1,45 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.chart_type_picker {
+  border: 1px solid var(--grey-16);
+  min-height: 2.5rem;
+}
+
+.chart_type_picker_icon {
+  color: var(--grey-60);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.chart_type_picker_btn:hover {
+  background-color: var(--primary-2);
+}
+
+.chart_type_picker_btn_selected {
+  background-color: var(--primary-2);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.chart_type_picker_btn_selected_one {
+  background-color: var(--primary-2);
+  cursor: pointer;
+}
+
+.chart_type_picker_icon:hover {
+  color: var(--white-1);
+}
+
+.chart_type_picker_icon_selected {
+  color: var(--white-1);
+}
+
+.chart_type_picker_icon_inverted {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  transform: rotate(90deg);
+}
+
+.image_type {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}

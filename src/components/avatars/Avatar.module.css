@@ -1,0 +1,40 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.avatar_one_circle {
+  background-color: var(--primary-1);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 2.25rem;
+  text-align: center;
+  width: 2.25rem;
+}
+
+.avatar_one_initials {
+  color: var(--white-1);
+  font-size: calc(2.25rem / 3);
+  font-family: "Lato-Regular", sans-serif;
+  line-height: 1;
+  position: relative;
+  top: calc(2.25rem / 7);
+  text-decoration: none;
+}
+
+.avatar_two_circle {
+  background-color: var(--primary-1);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 5.938rem;
+  text-align: center;
+  width: 5.938rem;
+}
+
+.avatar_two_initials {
+  color: var(--white-1);
+  font-size: calc(7.25rem / 3);
+  font-family: "Lato-Regular", sans-serif;
+  line-height: 1;
+  position: relative;
+  top: calc(12.5rem / 7);
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+@import url("../../styles/colors.css");
+@import url("../../assets/fonts/fonts.css");
+
+.custom_tab_two {
+  border: none !important;
+}
+
+
+.navTabs  {
+  
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.975rem;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+  min-width: 5vw;
+
+}

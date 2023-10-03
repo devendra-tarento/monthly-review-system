@@ -1,0 +1,81 @@
+@import url("../styles/colors.css");
+@import url("../assets/fonts/fonts.css");
+
+.display_one {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 2.25rem;
+  letter-spacing: -0.2px;
+  line-height: 1.333;
+  color: var(--grey-87);
+}
+
+.headline_one {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--grey-87);
+}
+
+.title_one {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.12px;
+  line-height: 1.4;
+  color: var(--grey-87);
+}
+
+.sub_heading_one {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.12px;
+  line-height: 1.5;
+  color: var(--grey-87);
+}
+
+.sub_heading_two {
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.429;
+  color: var(--grey-87);
+}
+
+.body_one {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+  color: var(--grey-87);
+}
+
+.body_two {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  line-height: 1.429;
+  color: var(--grey-87);
+}
+
+.button_one {
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  line-height: 1.429;
+  color: var(--grey-87);
+}
+
+.caption_one {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25px;
+  line-height: 1.333;
+  color: var(--grey-60);
+}
+
+.label_one {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 0.625rem;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  color: var(--grey-87);
+}

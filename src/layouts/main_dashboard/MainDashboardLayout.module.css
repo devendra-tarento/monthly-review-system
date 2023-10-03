@@ -1,0 +1,34 @@
+@import url("../../styles/colors.css");
+
+.monthCards {
+    height: 4rem;
+    width: 6rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    border-radius: 3%;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Lato-Regular", sans-serif;
+    padding-top: 5px;
+    font-size: 0.85rem;
+    letter-spacing: 0.25px;
+    line-height: 1.5;
+    transition: transform 0.4s ease;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activeMonth {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.questionText {
+    font-family: "Lato-Regular", sans-serif;
+    text-decoration: none !important;
+}
+
+.buttons{
+    margin-left: 130rem;
+}
